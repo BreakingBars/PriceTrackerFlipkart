@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 s = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 #s.starttls()
-s.login("karsayan599@gmail.com", "ylkptvmtxwlhvxmj")	
+s.login("karsayan599@gmail.com", "*****************")	
 
 @app.route('/')
 def home():
